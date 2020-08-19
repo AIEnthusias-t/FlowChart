@@ -1,0 +1,52 @@
+.Text {
+    position: relative;
+}
+
+.TextLine {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    border-left: 2px solid white;
+    height: 20px;
+}
+
+.InputBox {
+    margin-top: 20px;
+    min-width: 80px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+}
+
+.InputBox>input {
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+.Delete {
+    display: none;
+    background-color: #e3342f;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    z-index: 100;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.InputBox:hover .Delete {
+    display: flex;
+}
+
+.Icon {
+    color: white;
+    font-size: 20px!important;
+    cursor: pointer;
+}

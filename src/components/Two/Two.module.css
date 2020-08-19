@@ -1,0 +1,111 @@
+.Two {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* border: 1px solid #ffffff; */
+    align-items: center;
+    box-sizing: border-box;
+    min-height: 190px;
+}
+
+.Line {
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+.Top {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    border-left: 2px solid white;
+    height: 20px;
+}
+
+.Horizontal {
+    position: absolute;
+    top: 20px;
+    left: 25%;
+    border-top: 2px solid white;
+    width: 50%;
+}
+
+.LeftBox, .RightBox {
+    width: 50%;
+    position: relative;
+    padding: 0 5px;
+}
+
+.Left {
+    position: absolute;
+    top: 20px;
+    right: 50%;
+    border-left: 2px solid white;
+    height: 80px;
+}
+
+.LeftIcon {
+    position: absolute;
+    top: 10px;
+    right: calc(50% - 0.6rem);
+    z-index: 100;
+    background-color: #06a506;
+    padding: 5px;
+    border-radius: 5px;
+    min-width: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.Right {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    border-left: 2px solid white;
+    height: 80px;
+}
+
+.RightIcon {
+    position: absolute;
+    top: 10px;
+    left: calc(50% - 0.6rem);
+    z-index: 100;
+    background-color: #810505;
+    padding: 5px;
+    min-width: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.Icon {
+    color: white;
+    font-size: 1.2rem!important;
+}
+
+.AddRight {
+    position: absolute;
+    top: 98px;
+    left: calc(50% - 13px);
+    z-index: 100;
+    color: white;
+    font-size: 30px!important;
+    cursor: pointer;
+}
+
+.AddLeft {
+    position: absolute;
+    top: 98px;
+    right: calc(50% - 13px);
+    z-index: 100;
+    color: white;
+    font-size: 30px!important;
+    cursor: pointer;
+}
+
+.Data {
+    width: 100%;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+}

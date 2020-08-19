@@ -1,0 +1,40 @@
+.One {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* border: 1px solid #ffffff; */
+    align-items: center;
+    box-sizing: border-box;
+    min-height: 120px;
+}
+
+.Line {
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+.Top {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    border-left: 2px solid white;
+    height: 30px;
+}
+
+.Add {
+    position: absolute;
+    top: 28px;
+    left: calc(50% - 13px);
+    z-index: 100;
+    color: white;
+    font-size: 30px!important;
+    cursor: pointer;
+}
+
+.Data {
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
